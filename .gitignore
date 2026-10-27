@@ -1,0 +1,20 @@
+# Python sanal ortamı
+.venv/
+venv/
+
+# Gizli API anahtarları
+.env
+.env.*
+
+# Python geçici dosyaları
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# İndirilen büyük veri dosyaları
+data/raw/
+data/processed/
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
