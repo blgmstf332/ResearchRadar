@@ -1,0 +1,11 @@
+{
+  "topic_id": "T12072",
+  "topic_name": "Machine Learning and Algorithms",
+  "start_year": 2018,
+  "end_year": 2025,
+  "sample_size": 300,
+  "sampling_method": "stratified_random_by_publication_year",
+  "seed_rule": "42 + year",
+  "retrieved_at_utc": "2026-10-27T15:10:39.976469+00:00",
+  "filters": "primary_topic, publication_year, article|preprint"
+}
