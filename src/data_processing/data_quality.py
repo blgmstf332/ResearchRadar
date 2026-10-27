@@ -8,13 +8,15 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 def analyze_data_quality(csv_path):
     """
-    OpenAlex makale verilerinin kalitesini analiz eder.
+    OpenAlex makale verilerinin kalitesini kontrol eder.
 
     Kontroller:
     - Eksik değerler
     - Tekrarlanan makale kimlikleri
     - Geçersiz yayın yılları
     - Geçersiz atıf sayıları
+    - Yayın tarihi ve yayın yılı tutarlılığı
+    - Geri çekilmiş makaleler
 
     Orijinal veri setini değiştirmez.
     """
@@ -36,7 +38,9 @@ def analyze_data_quality(csv_path):
         "work_id",
         "title",
         "publication_year",
-        "cited_by_count"
+        "publication_date",
+        "cited_by_count",
+        "is_retracted"
     ]
 
     missing_columns = [
@@ -82,6 +86,7 @@ def analyze_data_quality(csv_path):
     )
 
     print(f"Geçersiz yayın yılı: {invalid_years.sum()}")
+    print(f"Boş/geçersiz yıl değeri: {years.isna().sum()}")
 
     # 6. Atıf sayılarını kontrol et
     citations = pd.to_numeric(
@@ -98,11 +103,43 @@ def analyze_data_quality(csv_path):
     )
 
     print(f"Geçersiz atıf sayısı: {invalid_citations.sum()}")
-
-    print(f"Boş/geçersiz yıl değeri: {years.isna().sum()}")
     print(f"Boş/geçersiz atıf değeri: {citations.isna().sum()}")
 
-    # 7. Sütun bazında kalite raporu oluştur
+    # 7. Yayın tarihi kontrolleri
+    dates = pd.to_datetime(
+        df["publication_date"],
+        errors="coerce"
+    )
+
+    missing_or_invalid_dates = dates.isna().sum()
+
+    year_mismatches = (
+        dates.notna()
+        & years.notna()
+        & (dates.dt.year != years)
+    ).sum()
+
+    print("\nYayın tarihi kontrolleri:")
+    print(f"Eksik veya geçersiz tarih: {missing_or_invalid_dates}")
+    print(f"Yayın yılı uyuşmazlığı: {year_mismatches}")
+
+    if dates.notna().any():
+        print(f"En eski yayın tarihi: {dates.min()}")
+        print(f"En yeni yayın tarihi: {dates.max()}")
+
+    # 8. Geri çekilmiş makaleleri kontrol et
+    retracted = (
+        df["is_retracted"]
+        .astype("string")
+        .str.strip()
+        .str.lower()
+    )
+
+    retracted_count = (retracted == "true").sum()
+
+    print(f"\nGeri çekilmiş makale sayısı: {retracted_count}")
+
+    # 9. Sütun bazında kalite raporu
     report = pd.DataFrame({
         "column": df.columns,
         "missing_count": missing_values.values,
@@ -111,7 +148,7 @@ def analyze_data_quality(csv_path):
         ).round(2)
     })
 
-    # 8. Rapor klasörünü oluştur
+    # 10. Rapor klasörünü oluştur
     output_dir = PROJECT_ROOT / "data" / "processed"
 
     output_dir.mkdir(
@@ -119,7 +156,7 @@ def analyze_data_quality(csv_path):
         exist_ok=True
     )
 
-    # 9. Kalite raporunu CSV olarak kaydet
+    # 11. Kalite raporunu CSV dosyasına kaydet
     output_file = output_dir / "data_quality_report.csv"
 
     report.to_csv(
@@ -136,7 +173,7 @@ def analyze_data_quality(csv_path):
 # Program doğrudan çalıştırıldığında
 if __name__ == "__main__":
 
-    # Mustafa'nın OpenAlex pilot veri seti
+    # Mustafa'nın 300 makalelik pilot veri seti
     csv_file = (
         PROJECT_ROOT
         / "data"
