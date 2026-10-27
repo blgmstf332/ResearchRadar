@@ -1,3 +1,4 @@
+
 from pathlib import Path
 import pandas as pd
 
@@ -8,14 +9,21 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 def analyze_data_quality(csv_path):
     """
     OpenAlex makale verilerinin kalitesini analiz eder.
-    Verileri değiştirmez, yalnızca sorunları raporlar.
+
+    Kontroller:
+    - Eksik değerler
+    - Tekrarlanan makale kimlikleri
+    - Geçersiz yayın yılları
+    - Geçersiz atıf sayıları
+
+    Orijinal veri setini değiştirmez.
     """
 
-    # CSV dosyasını oku
+    # 1. CSV dosyasını oku
     df = pd.read_csv(csv_path)
 
     print("\nResearchRadar - Veri Kalite Raporu")
-    print("-" * 40)
+    print("-" * 45)
 
     print(f"Toplam kayıt: {len(df)}")
     print(f"Toplam sütun: {len(df.columns)}")
@@ -23,6 +31,7 @@ def analyze_data_quality(csv_path):
     if df.empty:
         raise ValueError("CSV dosyası boş.")
 
+    # 2. Gerekli sütunları kontrol et
     required_columns = [
         "work_id",
         "title",
@@ -30,9 +39,9 @@ def analyze_data_quality(csv_path):
         "cited_by_count"
     ]
 
-    # Gerekli sütunlar var mı?
     missing_columns = [
-        column for column in required_columns
+        column
+        for column in required_columns
         if column not in df.columns
     ]
 
@@ -41,16 +50,23 @@ def analyze_data_quality(csv_path):
             f"CSV dosyasında eksik sütunlar: {missing_columns}"
         )
 
-    # Eksik değer analizi
-    print("\nEksik değer sayıları:")
-    print(df.isna().sum())
+    # 3. Eksik değerleri hesapla
+    missing_values = df.isna().sum()
 
-    # Makale kimliğine göre tekrar kontrolü
-    duplicate_count = df["work_id"].dropna().duplicated().sum()
+    print("\nEksik değer sayıları:")
+    print(missing_values)
+
+    # 4. Tekrarlanan makale kimliklerini kontrol et
+    duplicate_count = (
+        df["work_id"]
+        .dropna()
+        .duplicated()
+        .sum()
+    )
 
     print(f"\nTekrarlanan makale kaydı: {duplicate_count}")
 
-    # Yayın yıllarını sayısal değere dönüştür
+    # 5. Yayın yıllarını kontrol et
     years = pd.to_numeric(
         df["publication_year"],
         errors="coerce"
@@ -58,12 +74,16 @@ def analyze_data_quality(csv_path):
 
     invalid_years = (
         years.notna()
-        & ((years < 1900) | (years > 2026) | (years % 1 != 0))
+        & (
+            (years < 2018)
+            | (years > 2025)
+            | (years % 1 != 0)
+        )
     )
 
     print(f"Geçersiz yayın yılı: {invalid_years.sum()}")
 
-    # Atıf kontrolü
+    # 6. Atıf sayılarını kontrol et
     citations = pd.to_numeric(
         df["cited_by_count"],
         errors="coerce"
@@ -71,36 +91,61 @@ def analyze_data_quality(csv_path):
 
     invalid_citations = (
         citations.notna()
-        & ((citations < 0) | (citations % 1 != 0))
+        & (
+            (citations < 0)
+            | (citations % 1 != 0)
+        )
     )
 
     print(f"Geçersiz atıf sayısı: {invalid_citations.sum()}")
 
-    # Eksik ve hatalı sayısal değerleri ayrıca raporla
     print(f"Boş/geçersiz yıl değeri: {years.isna().sum()}")
     print(f"Boş/geçersiz atıf değeri: {citations.isna().sum()}")
 
-    # Rapor tablosu
+    # 7. Sütun bazında kalite raporu oluştur
     report = pd.DataFrame({
         "column": df.columns,
-        "missing_count": df.isna().sum().values,
+        "missing_count": missing_values.values,
         "missing_percent": (
             df.isna().mean().values * 100
         ).round(2)
     })
 
+    # 8. Rapor klasörünü oluştur
+    output_dir = PROJECT_ROOT / "data" / "processed"
+
+    output_dir.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+    # 9. Kalite raporunu CSV olarak kaydet
+    output_file = output_dir / "data_quality_report.csv"
+
+    report.to_csv(
+        output_file,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print(f"\nKalite raporu kaydedildi: {output_file}")
+
     return report
 
 
+# Program doğrudan çalıştırıldığında
 if __name__ == "__main__":
 
+    # Mustafa'nın OpenAlex pilot veri seti
     csv_file = (
-        PROJECT_ROOT / "data" / "samples" / "pilot_10.csv"
+        PROJECT_ROOT
+        / "data"
+        / "samples"
+        / "T12072_pilot_300.csv"
     )
 
     if not csv_file.exists():
-        print(f"Örnek veri dosyası henüz bulunamadı: {csv_file}")
-        print("Mustafa'nın pilot CSV verisini bekliyoruz.")
+        print(f"Veri dosyası bulunamadı: {csv_file}")
 
     else:
         quality_report = analyze_data_quality(csv_file)
