@@ -62,6 +62,11 @@ print("\n--- Logistic Regression (Atifsiz) ---")
 print("Validation Accuracy:", round(accuracy_score(y_val, y_val_pred), 4))
 print("Validation Macro-F1:", round(f1_score(y_val, y_val_pred, average="macro"), 4))
 
+from sklearn.metrics import average_precision_score
+
+print("Logistic Regression Validation PR-AUC (AP):",
+      round(average_precision_score(y_val, model.predict_proba(X_val)[:, 1]), 4))
+
 
 from sklearn.metrics import (
     classification_report,
@@ -97,6 +102,10 @@ rf_model.fit(X_train, y_train)
 
 # Validation verisinde tahmin yap
 rf_val_pred = rf_model.predict(X_val)
+from sklearn.metrics import average_precision_score
+
+rf_val_prob = rf_model.predict_proba(X_val)[:, 1]
+print("Random Forest Validation PR-AUC (AP):", round(average_precision_score(y_val, rf_val_prob), 4))
 
 print("\n--- Random Forest (Atifsiz) ---")
 print("Validation Accuracy:", round(accuracy_score(y_val, rf_val_pred), 4))
@@ -128,6 +137,9 @@ lgbm_model.fit(X_train, y_train)
 
 # Validation verisinde tahmin yap
 lgbm_val_pred = lgbm_model.predict(X_val)
+
+lgbm_val_prob = lgbm_model.predict_proba(X_val)[:, 1]
+print("LightGBM Validation PR-AUC (AP):", round(average_precision_score(y_val, lgbm_val_prob), 4))
 
 print("\n--- LightGBM (Atifsiz) ---")
 print("Validation Accuracy:", round(accuracy_score(y_val, lgbm_val_pred), 4))
