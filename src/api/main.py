@@ -123,7 +123,7 @@ def get_topic_trends(topic_id: str):
 def get_scores(year: int = 2025, limit: int = 10):
 
     scores_file = (
-        ROOT / "data/processed/topic_year_scores_v1.csv"
+        ROOT / "data/samples/topic_year_scores_v1.csv"
     )
 
     if not scores_file.exists():
