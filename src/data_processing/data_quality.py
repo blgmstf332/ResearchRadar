@@ -1,191 +1,243 @@
 
 from pathlib import Path
+import json
 import pandas as pd
 
-# ResearchRadar projesinin ana klasörü
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+INPUT_FILE = (
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "work_details_120_topics_n30.csv"
+)
+
+OUTPUT_DIR = PROJECT_ROOT / "data" / "processed"
 
 
 def analyze_data_quality(csv_path):
-    """
-    OpenAlex makale verilerinin kalitesini kontrol eder.
-
-    Kontroller:
-    - Eksik değerler
-    - Tekrarlanan makale kimlikleri
-    - Geçersiz yayın yılları
-    - Geçersiz atıf sayıları
-    - Yayın tarihi ve yayın yılı tutarlılığı
-    - Geri çekilmiş makaleler
-
-    Orijinal veri setini değiştirmez.
-    """
-
-    # 1. CSV dosyasını oku
-    df = pd.read_csv(csv_path)
-
-    print("\nResearchRadar - Veri Kalite Raporu")
-    print("-" * 45)
-
-    print(f"Toplam kayıt: {len(df)}")
-    print(f"Toplam sütun: {len(df.columns)}")
+    # 1. Ana veri setini oku
+    df = pd.read_csv(csv_path, low_memory=False)
 
     if df.empty:
-        raise ValueError("CSV dosyası boş.")
+        raise ValueError("Veri seti bos!")
 
-    # 2. Gerekli sütunları kontrol et
+    # 2. Bekledigimiz sutunlari kontrol et
     required_columns = [
         "work_id",
-        "title",
+        "topic_id",
+        "topic_name",
         "publication_year",
         "publication_date",
+        "title",
+        "doi",
+        "type",
         "cited_by_count",
-        "is_retracted"
+        "abstract",
+        "has_abstract",
+        "counts_by_year_json",
+        "is_retracted",
     ]
 
     missing_columns = [
-        column
-        for column in required_columns
-        if column not in df.columns
+        col for col in required_columns
+        if col not in df.columns
     ]
 
     if missing_columns:
         raise ValueError(
-            f"CSV dosyasında eksik sütunlar: {missing_columns}"
+            f"Eksik sutunlar: {missing_columns}"
         )
 
-    # 3. Eksik değerleri hesapla
-    missing_values = df.isna().sum()
+    # 3. Bos metinleri eksik veri olarak kabul et
+    for col in df.select_dtypes(include="object").columns:
+        df[col] = df[col].replace(
+            r"^\s*$",
+            pd.NA,
+            regex=True
+        )
 
-    print("\nEksik değer sayıları:")
-    print(missing_values)
+    print("\nResearchRadar - Ana Veri Kalite Analizi")
+    print("-" * 45)
 
-    # 4. Tekrarlanan makale kimliklerini kontrol et
-    duplicate_count = (
-        df["work_id"]
-        .dropna()
-        .duplicated()
-        .sum()
+    # 4. Eksik veri raporu
+    report = pd.DataFrame({
+        "column": df.columns,
+        "missing_count": df.isna().sum().values,
+        "missing_percent": (
+            df.isna().mean().values * 100
+        ).round(2)
+    })
+
+    print("\n1. Eksik veri raporu:")
+    print(report.to_string(index=False))
+
+    # 5. Tekrar eden makale kontrolu
+    duplicate_count = int(
+        df["work_id"].dropna().duplicated().sum()
     )
 
-    print(f"\nTekrarlanan makale kaydı: {duplicate_count}")
-
-    # 5. Yayın yıllarını kontrol et
+    # 6. Yayin yili kontrolu
     years = pd.to_numeric(
         df["publication_year"],
         errors="coerce"
     )
 
     invalid_years = (
-        years.notna()
+        df["publication_year"].notna()
         & (
-            (years < 2018)
+            years.isna()
+            | (years < 2018)
             | (years > 2025)
             | (years % 1 != 0)
         )
     )
 
-    print(f"Geçersiz yayın yılı: {invalid_years.sum()}")
-    print(f"Boş/geçersiz yıl değeri: {years.isna().sum()}")
+    # 7. Yayin tarihi kontrolu
+    dates = pd.to_datetime(
+        df["publication_date"],
+        errors="coerce"
+    )
 
-    # 6. Atıf sayılarını kontrol et
+    invalid_dates = (
+        df["publication_date"].notna()
+        & dates.isna()
+    )
+
+    year_date_mismatch = (
+        years.notna()
+        & dates.notna()
+        & (years != dates.dt.year)
+    )
+
+    # 8. Atif sayisi kontrolu
     citations = pd.to_numeric(
         df["cited_by_count"],
         errors="coerce"
     )
 
     invalid_citations = (
-        citations.notna()
+        df["cited_by_count"].notna()
         & (
-            (citations < 0)
+            citations.isna()
+            | (citations < 0)
             | (citations % 1 != 0)
         )
     )
 
-    print(f"Geçersiz atıf sayısı: {invalid_citations.sum()}")
-    print(f"Boş/geçersiz atıf değeri: {citations.isna().sum()}")
-
-    # 7. Yayın tarihi kontrolleri
-    dates = pd.to_datetime(
-        df["publication_date"],
-        errors="coerce"
+    # 9. Abstract bayragi kontrolu
+    abstract_flag = (
+        df["has_abstract"]
+        .astype("string")
+        .str.strip()
+        .str.lower()
     )
 
-    missing_or_invalid_dates = dates.isna().sum()
+    valid_abstract_flags = abstract_flag.isin(
+        ["true", "false"]
+    )
 
-    year_mismatches = (
-        dates.notna()
-        & years.notna()
-        & (dates.dt.year != years)
-    ).sum()
+    invalid_abstract_flags = (
+        abstract_flag.notna()
+        & ~valid_abstract_flags
+    )
 
-    print("\nYayın tarihi kontrolleri:")
-    print(f"Eksik veya geçersiz tarih: {missing_or_invalid_dates}")
-    print(f"Yayın yılı uyuşmazlığı: {year_mismatches}")
+    actual_has_abstract = df["abstract"].notna()
 
-    if dates.notna().any():
-        print(f"En eski yayın tarihi: {dates.min()}")
-        print(f"En yeni yayın tarihi: {dates.max()}")
+    abstract_flag_mismatch = (
+        (
+            (abstract_flag == "true").fillna(False)
+            != actual_has_abstract
+        )
+        & valid_abstract_flags
+    )
 
-    # 8. Geri çekilmiş makaleleri kontrol et
-    retracted = (
+    # 10. Geri cekilmis makaleler
+    retracted_flag = (
         df["is_retracted"]
         .astype("string")
         .str.strip()
         .str.lower()
     )
 
-    retracted_count = (retracted == "true").sum()
-
-    print(f"\nGeri çekilmiş makale sayısı: {retracted_count}")
-
-    # 9. Sütun bazında kalite raporu
-    report = pd.DataFrame({
-        "column": df.columns,
-        "missing_count": missing_values.values,
-        "missing_percent": (
-            df.isna().mean().values * 100
-        ).round(2)
-    })
-
-    # 10. Rapor klasörünü oluştur
-    output_dir = PROJECT_ROOT / "data" / "processed"
-
-    output_dir.mkdir(
-        parents=True,
-        exist_ok=True
+    invalid_retracted_flags = (
+        retracted_flag.notna()
+        & ~retracted_flag.isin(["true", "false"])
     )
 
-    # 11. Kalite raporunu CSV dosyasına kaydet
-    output_file = output_dir / "data_quality_report.csv"
+    retracted_count = int(
+        (retracted_flag == "true").sum()
+    )
+
+    # 11. Yillik atif JSON kontrolu
+    def is_invalid_json(value):
+        if pd.isna(value):
+            return False
+
+        try:
+            parsed = json.loads(str(value))
+            return not isinstance(parsed, list)
+        except (ValueError, TypeError):
+            return True
+
+    invalid_json_count = int(
+        df["counts_by_year_json"]
+        .apply(is_invalid_json)
+        .sum()
+    )
+
+    # 12. Ozet kontrol tablosu
+    summary = {
+        "total_records": len(df),
+        "unique_works": df["work_id"].nunique(),
+        "unique_topics": df["topic_id"].nunique(),
+        "missing_work_id": df["work_id"].isna().sum(),
+        "missing_title": df["title"].isna().sum(),
+        "missing_doi": df["doi"].isna().sum(),
+        "missing_abstract": df["abstract"].isna().sum(),
+        "duplicate_work_ids": duplicate_count,
+        "invalid_years": invalid_years.sum(),
+        "invalid_dates": invalid_dates.sum(),
+        "year_date_mismatch": year_date_mismatch.sum(),
+        "invalid_citations": invalid_citations.sum(),
+        "invalid_abstract_flags": invalid_abstract_flags.sum(),
+        "abstract_flag_mismatch": abstract_flag_mismatch.sum(),
+        "invalid_retracted_flags": invalid_retracted_flags.sum(),
+        "retracted_works": retracted_count,
+        "invalid_citation_json": invalid_json_count,
+    }
+
+    summary_df = pd.DataFrame([
+        {"check": key, "count": int(value)}
+        for key, value in summary.items()
+    ])
+
+    print("\n2. Kalite kontrol ozeti:")
+    print(summary_df.to_string(index=False))
+
+    # 13. CSV raporlarini kaydet
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     report.to_csv(
-        output_file,
+        OUTPUT_DIR / "data_quality_report_main.csv",
         index=False,
         encoding="utf-8-sig"
     )
 
-    print(f"\nKalite raporu kaydedildi: {output_file}")
+    summary_df.to_csv(
+        OUTPUT_DIR / "data_quality_summary_main.csv",
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print("\nKalite raporlari basariyla kaydedildi!")
+    print(f"Klasor: {OUTPUT_DIR}")
 
     return report
 
 
-# Program doğrudan çalıştırıldığında
 if __name__ == "__main__":
-
-    # Mustafa'nın 300 makalelik pilot veri seti
-    csv_file = (
-        PROJECT_ROOT
-        / "data"
-        / "samples"
-        / "T12072_pilot_300.csv"
-    )
-
-    if not csv_file.exists():
-        print(f"Veri dosyası bulunamadı: {csv_file}")
-
+    if not INPUT_FILE.exists():
+        print(f"Veri dosyasi bulunamadi: {INPUT_FILE}")
     else:
-        quality_report = analyze_data_quality(csv_file)
-
-        print("\nSütun kalite raporu:")
-        print(quality_report.to_string(index=False))
+        analyze_data_quality(INPUT_FILE)
