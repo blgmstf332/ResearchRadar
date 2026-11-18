@@ -1,0 +1,501 @@
+﻿topic_id,topic_name,domain,field,subfield,works_count
+T11625,Abdominal vascular conditions and treatments,Health Sciences,Medicine,Surgery,59837
+T10327,Adolescent Sexual and Reproductive Health,Health Sciences,Health Professions,General Health Professions,140866
+T12322,Animal health and immunology,Health Sciences,Veterinary,Small Animals,36404
+T10051,Asthma and respiratory diseases,Health Sciences,Medicine,Physiology,315258
+T12979,Cardiovascular Disease and Adiposity,Health Sciences,Medicine,Cardiology and Cardiovascular Medicine,12808
+T11535,Chemotherapy-induced cardiotoxicity and mitigation,Health Sciences,Medicine,Cardiology and Cardiovascular Medicine,35161
+T12235,Child Abuse and Related Trauma,Health Sciences,Medicine,"Pediatrics, Perinatology and Child Health",22526
+T12023,Cholinesterase and Neurodegenerative Diseases,Health Sciences,Medicine,Pharmacology,40203
+T12439,Dental Research and COVID-19,Health Sciences,Dentistry,General Dentistry,12059
+T11358,Dysphagia Assessment and Management,Health Sciences,Health Professions,Speech and Hearing,59935
+T11610,Food Security and Health in Diverse Populations,Health Sciences,Health Professions,General Health Professions,49684
+T12631,Head and Neck Anomalies,Health Sciences,Medicine,Surgery,17859
+T11509,Hip and Femur Fractures,Health Sciences,Medicine,Surgery,54785
+T11146,Hormonal and reproductive studies,Health Sciences,Medicine,"Endocrinology, Diabetes and Metabolism",45419
+T13945,"Legal, Health, Environmental and COVID-19 Challenges",Health Sciences,Medicine,"Public Health, Environmental and Occupational Health",30092
+T10185,Lymphoma Diagnosis and Treatment,Health Sciences,Medicine,Pathology and Forensic Medicine,198021
+T14514,Medical Research and Practices,Health Sciences,Health Professions,Medical Terminology,6626
+T13444,Medical Research and Treatments,Health Sciences,Medicine,Complementary and alternative medicine,44079
+T13597,Medicine and Dermatology Studies History,Health Sciences,Medicine,Dermatology,28579
+T12489,Microbial Metabolites in Food Biotechnology,Health Sciences,Nursing,Nutrition and Dietetics,18808
+T10919,Neurological disorders and treatments,Health Sciences,Medicine,Neurology,71888
+T10508,Patient Safety and Medication Errors,Health Sciences,Health Professions,Emergency Medical Services,134799
+T12154,Pelvic and Acetabular Injuries,Health Sciences,Medicine,Surgery,22433
+T10832,Pituitary Gland Disorders and Treatments,Health Sciences,Medicine,"Endocrinology, Diabetes and Metabolism",114088
+T11754,SARS-CoV-2 detection and testing,Health Sciences,Medicine,Infectious Diseases,30828
+T10916,Surgical Simulation and Training,Health Sciences,Medicine,Surgery,53617
+T10293,Thyroid Disorders and Treatments,Health Sciences,Medicine,"Endocrinology, Diabetes and Metabolism",227131
+T11071,Treatment of Major Depression,Health Sciences,Medicine,Pharmacology,101659
+T12342,Vascular anomalies and interventions,Health Sciences,Medicine,Surgery,43240
+T12492,Zoonotic diseases and public health,Health Sciences,Medicine,"Public Health, Environmental and Occupational Health",38763
+T12867,Advanced Biosensing Techniques and Applications,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,26692
+T11886,Agricultural risk and resilience,Life Sciences,Agricultural and Biological Sciences,Soil Science,31527
+T10450,Aquaculture Nutrition and Growth,Life Sciences,Agricultural and Biological Sciences,Aquatic Science,159463
+T12356,Bioactive Compounds and Antitumor Agents,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Toxicology,24728
+T12919,Blood disorders and treatments,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,18733
+T11845,Cancer therapeutics and mechanisms,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,31798
+T12904,Diverse Educational Innovations Studies,Life Sciences,Agricultural and Biological Sciences,General Agricultural and Biological Sciences,52866
+T11883,Embodied and Extended Cognition,Life Sciences,Neuroscience,Cognitive Neuroscience,27970
+T11957,Food Safety and Hygiene,Life Sciences,Agricultural and Biological Sciences,Food Science,156727
+T11928,Genetic Syndromes and Imprinting,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,21603
+T11077,Genetic and Clinical Aspects of Sex Determination and Chromosomal Abnormalities,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,49796
+T11412,Genetic and Kidney Cyst Diseases,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,41854
+T12355,Genetic and rare skin diseases.,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,35269
+T11848,Heme Oxygenase-1 and Carbon Monoxide,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,18141
+T12065,Hippo pathway signaling and YAP/TAZ,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Cell Biology,14375
+T10343,"Hydrogels: synthesis, properties, applications",Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Medicine,106313
+T11313,Immune cells in cancer,Life Sciences,Immunology and Microbiology,Immunology,52230
+T11455,Microbial Inactivation Methods,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Biotechnology,63230
+T12688,Microbial metabolism and enzyme function,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,37355
+T10520,Mycotoxins in Agriculture and Food,Life Sciences,Agricultural and Biological Sciences,Plant Science,106664
+T10971,Olfactory and Sensory Function Studies,Life Sciences,Neuroscience,Sensory Systems,57093
+T13202,Pharmacology and Nanomedicine Research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Drug Discovery,2320
+T12789,Planarian Biology and Electrostimulation,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,17241
+T10473,Postharvest Quality and Shelf Life Management,Life Sciences,Agricultural and Biological Sciences,Plant Science,176357
+T10411,Proteins in Food Systems,Life Sciences,Agricultural and Biological Sciences,Food Science,97123
+T12749,"Race, Genetics, and Society",Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,21382
+T12114,Sensory Analysis and Statistical Methods,Life Sciences,Agricultural and Biological Sciences,Food Science,41070
+T10004,Soil Carbon and Nitrogen Dynamics,Life Sciences,Agricultural and Biological Sciences,Soil Science,424591
+T13188,Synthesis and bioactivity of alkaloids,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,11404
+T10296,Vector-borne infectious diseases,Life Sciences,Immunology and Microbiology,Parasitology,182183
+T13647,AI and Big Data Applications,Physical Sciences,Computer Science,Information Systems,1131
+T10822,Acoustic Wave Phenomena Research,Physical Sciences,Engineering,Biomedical Engineering,98517
+T11682,Advanced Condensed Matter Physics,Physical Sciences,Physics and Astronomy,Condensed Matter Physics,83996
+T11008,Aerodynamics and Acoustics in Jet Flows,Physical Sciences,Engineering,Aerospace Engineering,56387
+T13115,Axial and Atropisomeric Chirality Synthesis,Physical Sciences,Chemistry,Organic Chemistry,7433
+T14347,Big Data and Digital Economy,Physical Sciences,Computer Science,Information Systems,723
+T10059,Bone Tissue Engineering Materials,Physical Sciences,Engineering,Biomedical Engineering,184034
+T11593,Carbon dioxide utilization in catalysis,Physical Sciences,Chemical Engineering,Process Chemistry and Technology,25561
+T14114,Digital Media and Philosophy,Physical Sciences,Computer Science,Computer Science Applications,14658
+T10288,Fractional Differential Equations Solutions,Physical Sciences,Mathematics,Modeling and Simulation,55658
+T12639,Global Energy and Sustainability Research,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",46328
+T12557,Inorganic Chemistry and Materials,Physical Sciences,Chemistry,Inorganic Chemistry,44256
+T13375,Integrated Water Resources Management,Physical Sciences,Environmental Science,Water Science and Technology,35333
+T12510,Magneto-Optical Properties and Applications,Physical Sciences,Engineering,Electrical and Electronic Engineering,13794
+T12056,Markov Chains and Monte Carlo Methods,Physical Sciences,Mathematics,Statistics and Probability,29874
+T10995,Methane Hydrates and Related Phenomena,Physical Sciences,Environmental Science,Environmental Chemistry,53387
+T11791,Microbial Community Ecology and Physiology,Physical Sciences,Environmental Science,Ecology,384903
+T12784,Modular Robots and Swarm Intelligence,Physical Sciences,Engineering,Mechanical Engineering,16732
+T12748,Molecular spectroscopy and chirality,Physical Sciences,Chemistry,Spectroscopy,45748
+T13493,Optical and Acousto-Optic Technologies,Physical Sciences,Physics and Astronomy,"Atomic and Molecular Physics, and Optics",21113
+T14074,Persona Design and Applications,Physical Sciences,Computer Science,Human-Computer Interaction,2897
+T11630,Petroleum Processing and Analysis,Physical Sciences,Chemistry,Analytical Chemistry,72549
+T10305,Power System Optimization and Stability,Physical Sciences,Engineering,Electrical and Electronic Engineering,114070
+T11261,Quantum chaos and dynamical systems,Physical Sciences,Physics and Astronomy,Statistical and Nonlinear Physics,28685
+T12299,Radiation Shielding Materials Analysis,Physical Sciences,Materials Science,Materials Chemistry,26837
+T12042,Satellite Communication Systems,Physical Sciences,Engineering,Aerospace Engineering,65661
+T12442,Thermal Radiation and Cooling Technologies,Physical Sciences,Engineering,Civil and Structural Engineering,22631
+T10524,Traffic control and management,Physical Sciences,Engineering,Control and Systems Engineering,136204
+T12984,Transport and Logistics Innovations,Physical Sciences,Engineering,Industrial and Manufacturing Engineering,86118
+T11522,VLSI and FPGA Design Techniques,Physical Sciences,Engineering,Electrical and Electronic Engineering,72804
+T14494,American Literature and Culture,Social Sciences,Arts and Humanities,History,153337
+T14223,Ayn Rand and Brontë studies,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,13974
+T13821,Coaching Methods and Impact,Social Sciences,Psychology,Applied Psychology,29474
+T13308,Cybernetics and Technology in Society,Social Sciences,Arts and Humanities,History and Philosophy of Science,63196
+T11514,Disability Education and Employment,Social Sciences,Social Sciences,Safety Research,142159
+T12474,Education Discipline and Inequality,Social Sciences,Social Sciences,Education,29638
+T14449,Education and Character Development,Social Sciences,Social Sciences,Education,107480
+T14274,Education and Vocational Training,Social Sciences,Social Sciences,Education,41538
+T12895,Environmental law and policy,Social Sciences,Social Sciences,Law,131273
+T12921,European Criminal Justice and Data Protection,Social Sciences,Social Sciences,Political Science and International Relations,32743
+T11632,Family and Disability Support Research,Social Sciences,Psychology,Clinical Psychology,92213
+T10992,Forensic Anthropology and Bioarchaeology Studies,Social Sciences,Arts and Humanities,Archeology,111833
+T14031,Global and Cross-Cultural Management,Social Sciences,Social Sciences,Anthropology,43965
+T11285,Hearing Impairment and Communication,Social Sciences,Psychology,Developmental and Educational Psychology,112799
+T14442,Historical Studies in Science,Social Sciences,Arts and Humanities,History and Philosophy of Science,31519
+T13210,Historical Turkish Studies,Social Sciences,Social Sciences,Political Science and International Relations,148964
+T13231,"History, Culture, and Diplomacy",Social Sciences,Arts and Humanities,History,27251
+T10348,"Indigenous Health, Education, and Rights",Social Sciences,Social Sciences,Health,75563
+T14266,"Interdisciplinary Studies: Technology, Society, and Humanities",Social Sciences,Arts and Humanities,History and Philosophy of Science,11799
+T13875,Legal Studies and Reforms,Social Sciences,Social Sciences,Political Science and International Relations,8627
+T12289,Library Science and Administration,Social Sciences,Social Sciences,Library and Information Sciences,167690
+T12184,Linguistics and Education Research,Social Sciences,Arts and Humanities,Literature and Literary Theory,114907
+T12575,Medical History and Research,Social Sciences,Arts and Humanities,History,28666
+T13379,"Multiculturalism, Politics, Migration, Gender",Social Sciences,Social Sciences,Political Science and International Relations,36752
+T11798,Optimal Experimental Design Methods,Social Sciences,Decision Sciences,Management Science and Operations Research,59522
+T11413,Risk and Portfolio Optimization,Social Sciences,Decision Sciences,Management Science and Operations Research,49977
+T12175,Social Representations and Identity,Social Sciences,Psychology,Social Psychology,18429
+T14401,"Technology, Environment, Urban Planning",Social Sciences,Arts and Humanities,Philosophy,1069
+T12670,"Urbanism, Landscape, and Tourism Studies",Social Sciences,Social Sciences,Cultural Studies,574552
+T12248,Water Governance and Infrastructure,Social Sciences,Social Sciences,Political Science and International Relations,56862
+T13813,Oral and Craniofacial Lesions,Health Sciences,Dentistry,Oral Surgery,7678
+T11555,Methodologies in Health Research and Practice,Health Sciences,Nursing,Research and Theory,11289
+T13791,Veterinary medicine and infectious diseases,Health Sciences,Veterinary,Small Animals,9619
+T10359,Dental Implant Techniques and Outcomes,Health Sciences,Dentistry,Oral Surgery,145185
+T12280,Magnesium in Health and Disease,Health Sciences,Nursing,Nutrition and Dietetics,21168
+T10872,Veterinary Equine Medical Research,Health Sciences,Veterinary,Equine,115645
+T10113,Dental materials and restorations,Health Sciences,Dentistry,General Dentistry,303929
+T11649,Pharmaceutical industry and healthcare,Health Sciences,Nursing,"Issues, ethics and legal aspects",50954
+T11580,Veterinary Medicine and Surgery,Health Sciences,Veterinary,Small Animals,137889
+T11374,Cleft Lip and Palate Research,Health Sciences,Dentistry,Oral Surgery,63229
+T12790,Nursing Diagnosis and Documentation,Health Sciences,Nursing,Research and Theory,53123
+T11905,Veterinary Pharmacology and Anesthesia,Health Sciences,Veterinary,Small Animals,52850
+T11363,Dental Radiography and Imaging,Health Sciences,Dentistry,Oral Surgery,72757
+T13457,"Dental Education, Practice, Research",Health Sciences,Health Professions,General Health Professions,67308
+T14316,"Nursing Education, Practice, and Leadership",Health Sciences,Nursing,"Issues, ethics and legal aspects",86281
+T12281,Animal testing and alternatives,Health Sciences,Veterinary,Small Animals,49794
+T13324,Scientific and Engineering Research Topics,Health Sciences,Dentistry,Periodontics,11172
+T11430,Disaster Response and Management,Health Sciences,Health Professions,Emergency Medical Services,88512
+T10387,Fatty Acid Research and Health,Health Sciences,Nursing,Nutrition and Dietetics,84353
+T11149,Veterinary Oncology Research,Health Sciences,Veterinary,Small Animals,58284
+T10368,Dental Health and Care Utilization,Health Sciences,Dentistry,General Dentistry,214400
+T14029,Thoreau and American Literature,Health Sciences,Health Professions,Health Information Management,18592
+T12244,Healthcare Education and Workforce Issues,Health Sciences,Nursing,Leadership and Management,47312
+T12249,Veterinary Orthopedics and Neurology,Health Sciences,Veterinary,Small Animals,40320
+T11787,Oral and Maxillofacial Pathology,Health Sciences,Dentistry,Oral Surgery,54992
+T13243,Innovation in Digital Healthcare Systems,Health Sciences,Health Professions,Health Information Management,8091
+T12638,Pomegranate: compositions and health benefits,Health Sciences,Nursing,Nutrition and Dietetics,9890
+T10257,Oral microbiology and periodontitis research,Health Sciences,Dentistry,Periodontics,196999
+T12847,Healthcare Systems and Challenges,Health Sciences,Health Professions,General Health Professions,34887
+T11399,Muscle metabolism and nutrition,Health Sciences,Nursing,Nutrition and Dietetics,40276
+T11570,Periodontal Regeneration and Treatments,Health Sciences,Dentistry,Periodontics,41043
+T11497,Interprofessional Education and Collaboration,Health Sciences,Health Professions,General Health Professions,75230
+T10140,Food composition and properties,Health Sciences,Nursing,Nutrition and Dietetics,176225
+T12145,Dental Anxiety and Anesthesia Techniques,Health Sciences,Dentistry,Oral Surgery,40753
+T13036,Veterinary Practice and Education Studies,Health Sciences,Health Professions,Speech and Hearing,42027
+T13479,Food Science and Nutritional Studies,Health Sciences,Nursing,Nutrition and Dietetics,6562
+T13761,HIV/AIDS oral health manifestations,Health Sciences,Dentistry,General Dentistry,8243
+T13690,Quality and Safety in Healthcare,Health Sciences,Health Professions,Medical Laboratory Technology,39755
+T12174,Hospital Admissions and Outcomes,Health Sciences,Nursing,Leadership and Management,29404
+T11958,Dental Erosion and Treatment,Health Sciences,Dentistry,General Dentistry,31806
+T11722,Patient Satisfaction in Healthcare,Health Sciences,Health Professions,General Health Professions,54349
+T10499,Folate and B Vitamins Research,Health Sciences,Nursing,Nutrition and Dietetics,95865
+T10852,Temporomandibular Joint Disorders,Health Sciences,Dentistry,Oral Surgery,87300
+T10084,Musculoskeletal pain and rehabilitation,Health Sciences,Health Professions,"Physical Therapy, Sports Therapy and Rehabilitation",156440
+T13004,Vitamin K Research Studies,Health Sciences,Nursing,Nutrition and Dietetics,11063
+T13768,Oral and gingival health research,Health Sciences,Dentistry,Periodontics,8693
+T11314,Clinical Laboratory Practices and Quality Control,Health Sciences,Health Professions,Medical Laboratory Technology,192734
+T13117,Health Education and Validation,Health Sciences,Nursing,Research and Theory,29322
+T12367,Dental Trauma and Treatments,Health Sciences,Dentistry,General Dentistry,22090
+T12947,"Health, psychology, and well-being",Health Sciences,Health Professions,General Health Professions,23712
+T12075,Sodium Intake and Health,Health Sciences,Nursing,Nutrition and Dietetics,25852
+T11919,dental development and anomalies,Health Sciences,Dentistry,General Dentistry,55659
+T12151,Interpreting and Communication in Healthcare,Health Sciences,Health Professions,General Health Professions,17185
+T13048,Patient Dignity and Privacy,Health Sciences,Nursing,"Issues, ethics and legal aspects",10060
+T11452,Oral Health Pathology and Treatment,Health Sciences,Dentistry,General Dentistry,81896
+T13896,Health Services Management and Policy,Health Sciences,Health Professions,General Health Professions,254602
+T13111,Nursing care and research,Health Sciences,Nursing,Research and Theory,95690
+T12198,Oral health in cancer treatment,Health Sciences,Dentistry,General Dentistry,24360
+T10863,Voice and Speech Disorders,Health Sciences,Health Professions,Speech and Hearing,88070
+T10915,Trace Elements in Health,Health Sciences,Nursing,Nutrition and Dietetics,79782
+T10356,Orthodontics and Dentofacial Orthopedics,Health Sciences,Dentistry,Orthodontics,213744
+T11446,Mobile Health and mHealth Applications,Health Sciences,Health Professions,General Health Professions,76989
+T13960,"Dietetics, Nutrition, and Education",Health Sciences,Nursing,Nutrition and Dietetics,44807
+T10536,Endodontics and Root Canal Treatments,Health Sciences,Dentistry,Oral Surgery,137568
+T13108,Therapeutic Uses of Natural Elements,Health Sciences,Health Professions,Complementary and Manual Therapy,49794
+T11294,Infant Nutrition and Health,Health Sciences,Nursing,Nutrition and Dietetics,62436
+T13866,Occupational health in dentistry,Health Sciences,Dentistry,General Dentistry,9513
+T12480,Health and Wellbeing Research,Health Sciences,Health Professions,General Health Professions,13597
+T10496,Pharmaceutical Practices and Patient Outcomes,Health Sciences,Medicine,Geriatrics and Gerontology,98996
+T10596,Child Nutrition and Water Access,Health Sciences,Nursing,Nutrition and Dietetics,93859
+T13555,"Healthcare cost, quality, practices",Health Sciences,Health Professions,General Health Professions,22349
+T11860,"HIV, Drug Use, Sexual Risk",Health Sciences,Medicine,Epidemiology,34379
+T12873,"Nutrition, Health and Food Behavior",Health Sciences,Nursing,Nutrition and Dietetics,160647
+T10312,"Health, Nursing, Elderly Care",Health Sciences,Health Professions,General Health Professions,37498
+T11293,Orthopedic Infections and Treatments,Health Sciences,Medicine,Surgery,60869
+T11107,Selenium in Biological Systems,Health Sciences,Nursing,Nutrition and Dietetics,36143
+T10283,Hearing Loss and Rehabilitation,Health Sciences,Health Professions,Speech and Hearing,125865
+T12230,Cardiovascular Issues in Pregnancy,Health Sciences,Medicine,Cardiology and Cardiovascular Medicine,21857
+T12314,Nuts composition and effects,Health Sciences,Nursing,Nutrition and Dietetics,8805
+T14407,Athletic Training and Education,Health Sciences,Health Professions,"Physical Therapy, Sports Therapy and Rehabilitation",3798
+T13869,Ocular and Laser Science Research,Health Sciences,Medicine,Ophthalmology,18817
+T11584,Biochemical Analysis and Sensing Techniques,Health Sciences,Nursing,Nutrition and Dietetics,33920
+T14416,"Health, Technology, Consumer Behavior",Health Sciences,Health Professions,Health Information Management,10106
+T11763,Intracerebral and Subarachnoid Hemorrhage Research,Health Sciences,Medicine,Clinical Neurology,47200
+T11318,Phytoestrogen effects and research,Health Sciences,Nursing,Nutrition and Dietetics,18402
+T11396,Artificial Intelligence in Healthcare,Health Sciences,Health Professions,Health Information Management,107240
+T10816,Cerebrovascular and Carotid Artery Diseases,Health Sciences,Medicine,Cardiology and Cardiovascular Medicine,97216
+T12554,Vitamin C and Antioxidants Research,Health Sciences,Nursing,Nutrition and Dietetics,25726
+T12413,Health and Medical Education,Health Sciences,Health Professions,General Health Professions,76803
+T11819,Data-Driven Disease Surveillance,Health Sciences,Medicine,Epidemiology,37919
+T10186,Nursing education and management,Health Sciences,Nursing,Research and Theory,248693
+T11759,Occupational Therapy Practice and Research,Health Sciences,Health Professions,Occupational Therapy,69476
+T11713,Genital Health and Disease,Health Sciences,Medicine,Surgery,42407
+T13417,Biomedical Ethics and Regulation,Health Sciences,Nursing,"Issues, ethics and legal aspects",27416
+T10827,Patient-Provider Communication in Healthcare,Health Sciences,Health Professions,General Health Professions,127675
+T12477,Toxin Mechanisms and Immunotoxins,Life Sciences,Immunology and Microbiology,Immunology,18152
+T10241,Functional Brain Connectivity Studies,Life Sciences,Neuroscience,Cognitive Neuroscience,70523
+T13719,Phytochemistry and Bioactivity Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,5094
+T11136,Enzyme-mediated dye degradation,Life Sciences,Immunology and Microbiology,Applied Microbiology and Biotechnology,23647
+T10608,Neurogenesis and neuroplasticity mechanisms,Life Sciences,Neuroscience,Developmental Neuroscience,89678
+T11353,Venomous Animal Envenomation and Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Toxicology,64862
+T12668,Yeasts and Rust Fungi Studies,Life Sciences,Immunology and Microbiology,Microbiology,94489
+T10788,Neuroscience and Music Perception,Life Sciences,Neuroscience,Cognitive Neuroscience,74786
+T10800,Forensic Toxicology and Drug Analysis,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Toxicology,84010
+T11668,interferon and immune responses,Life Sciences,Immunology and Microbiology,Immunology,54376
+T13219,Mind wandering and attention,Life Sciences,Neuroscience,Cognitive Neuroscience,8825
+T10256,Drug Solubulity and Delivery Systems,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmaceutical Science,88566
+T12955,Atherosclerosis and Cardiovascular Diseases,Life Sciences,Immunology and Microbiology,Immunology,63456
+T10985,Sleep and Wakefulness Research,Life Sciences,Neuroscience,Cognitive Neuroscience,62174
+T14108,Medical and Pharmaceutic Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,11659
+T11074,Helminth infection and control,Life Sciences,Immunology and Microbiology,Parasitology,107752
+T10448,Memory and Neural Mechanisms,Life Sciences,Neuroscience,Cognitive Neuroscience,120828
+T11889,Ginseng Biological Effects and Applications,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,22843
+T11688,Microbial infections and disease research,Life Sciences,Immunology and Microbiology,Microbiology,89722
+T10465,Neurobiology of Language and Bilingualism,Life Sciences,Neuroscience,Cognitive Neuroscience,104900
+T12685,Phytochemical compounds biological activities,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Drug Discovery,9302
+T12691,Coccidia and coccidiosis research,Life Sciences,Agricultural and Biological Sciences,Animal Science and Zoology,19282
+T14245,Biomarkers in Disease Mechanisms,Life Sciences,Immunology and Microbiology,Immunology,7201
+T10423,Neurobiology and Insect Physiology Research,Life Sciences,Neuroscience,Cellular and Molecular Neuroscience,99729
+T10704,Advancements in Transdermal Drug Delivery,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmaceutical Science,69354
+T12822,Turfgrass Adaptation and Management,Life Sciences,Agricultural and Biological Sciences,Agronomy and Crop Science,28366
+T10993,Complement system in diseases,Life Sciences,Immunology and Microbiology,Immunology,71140
+T11872,Barrier Structure and Function Studies,Life Sciences,Neuroscience,Neurology,47006
+T13677,Magnolia and Illicium research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,4325
+T13008,Agricultural Practices and Plant Genetics,Life Sciences,Agricultural and Biological Sciences,Plant Science,16509
+T11503,Cytokine Signaling Pathways and Interactions,Life Sciences,Immunology and Microbiology,Immunology,42280
+T10918,Memory Processes and Influences,Life Sciences,Neuroscience,Cognitive Neuroscience,107053
+T14331,Medicinal Plant Pharmacodynamics Research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,5870
+T12142,Marine Invertebrate Physiology and Ecology,Life Sciences,Agricultural and Biological Sciences,Animal Science and Zoology,46575
+T11725,Immunodeficiency and Autoimmune Disorders,Life Sciences,Immunology and Microbiology,Immunology,57349
+T11601,Neuroscience and Neural Engineering,Life Sciences,Neuroscience,Cellular and Molecular Neuroscience,44592
+T12758,Saffron Plant Research Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,8697
+T12033,Agricultural Economics and Policy,Life Sciences,Agricultural and Biological Sciences,General Agricultural and Biological Sciences,73967
+T10506,Aquaculture disease management and microbiota,Life Sciences,Immunology and Microbiology,Immunology,122503
+T11541,Neuroendocrine regulation and behavior,Life Sciences,Neuroscience,Endocrine and Autonomic Systems,34884
+T14194,Bioactive Compounds in Plants,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,4065
+T10184,Plant Molecular Biology Research,Life Sciences,Agricultural and Biological Sciences,Plant Science,125206
+T11048,Bacteriophages and microbial interactions,Life Sciences,Immunology and Microbiology,Virology,78063
+T10581,Neural dynamics and brain function,Life Sciences,Neuroscience,Cognitive Neuroscience,98907
+T12347,Ginger and Zingiberaceae research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,25200
+T12468,Radiation Effects and Dosimetry,Life Sciences,Agricultural and Biological Sciences,Food Science,29865
+T11287,Cancer Genomics and Diagnostics,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Cancer Research,68910
+T13849,Enterobacteriaceae and Cronobacter Research,Life Sciences,Immunology and Microbiology,Microbiology,14150
+T10429,EEG and Brain-Computer Interfaces,Life Sciences,Neuroscience,Cognitive Neuroscience,133914
+T12649,Alkaloids: synthesis and pharmacology,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,36020
+T13950,Collembola Taxonomy and Ecology Studies,Life Sciences,Agricultural and Biological Sciences,"Ecology, Evolution, Behavior and Systematics",20729
+T11041,Ubiquitin and proteasome pathways,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,49905
+T12387,Galectins and Cancer Biology,Life Sciences,Immunology and Microbiology,Immunology,7884
+T10542,Vestibular and auditory disorders,Life Sciences,Neuroscience,Neurology,104260
+T12257,Bioactive natural compounds,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Drug Discovery,21926
+T12001,Fossil Insects in Amber,Life Sciences,Agricultural and Biological Sciences,"Ecology, Evolution, Behavior and Systematics",30698
+T11297,Ferroptosis and cancer prognosis,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Cancer Research,23086
+T11346,Mast cells and histamine,Life Sciences,Immunology and Microbiology,Immunology,64495
+T11337,Tryptophan and brain disorders,Life Sciences,Neuroscience,Biological Psychiatry,27024
+T13322,Hibiscus Plant Research Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,9517
+T11268,Light effects on plants,Life Sciences,Agricultural and Biological Sciences,Plant Science,45087
+T10505,Pluripotent Stem Cells Research,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,77473
+T12528,"IL-33, ST2, and ILC Pathways",Life Sciences,Immunology and Microbiology,Immunology,9888
+T14144,Neurological Disease Mechanisms and Treatments,Life Sciences,Neuroscience,Neurology,17298
+T12429,Chemotherapy-induced organ toxicity mitigation,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Toxicology,19584
+T12447,Spider Taxonomy and Behavior Studies,Life Sciences,Agricultural and Biological Sciences,"Ecology, Evolution, Behavior and Systematics",160951
+T11626,Metalloenzymes and iron-sulfur proteins,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Biochemistry,35870
+T11103,Antimicrobial Peptides and Activities,Life Sciences,Immunology and Microbiology,Microbiology,51460
+T10814,Neuropeptides and Animal Physiology,Life Sciences,Neuroscience,Cellular and Molecular Neuroscience,120588
+T13095,Plant-based Medicinal Research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,10688
+T11426,Genetically Modified Organisms Research,Life Sciences,Agricultural and Biological Sciences,Plant Science,75323
+T12360,Plant-derived Lignans Synthesis and Bioactivity,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,10833
+T14285,Biopolymer Synthesis and Applications,Life Sciences,Immunology and Microbiology,Applied Microbiology and Biotechnology,2154
+T10342,Circadian rhythm and melatonin,Life Sciences,Neuroscience,Endocrine and Autonomic Systems,116774
+T13037,Piperaceae Chemical and Biological Studies,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,10140
+T12058,Allelopathy and phytotoxic interactions,Life Sciences,Agricultural and Biological Sciences,Plant Science,27067
+T10012,Genetic diversity and population structure,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Genetics,228700
+T10112,HIV Research and Treatment,Life Sciences,Immunology and Microbiology,Virology,141070
+T11266,Neuroinflammation and Neurodegeneration Mechanisms,Life Sciences,Neuroscience,Neurology,61341
+T10920,Advanced Drug Delivery Systems,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmaceutical Science,113527
+T13668,Agricultural and Rural Development Research,Life Sciences,Agricultural and Biological Sciences,Forestry,1827
+T13157,Cancer-related gene regulation,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,7578
+T11510,Reproductive System and Pregnancy,Life Sciences,Immunology and Microbiology,Immunology,62906
+T10106,Autism Spectrum Disorder Research,Life Sciences,Neuroscience,Cognitive Neuroscience,190010
+T11943,Pharmacovigilance and Adverse Drug Reactions,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Toxicology,152970
+T11665,Animal Vocal Communication and Behavior,Life Sciences,Agricultural and Biological Sciences,"Ecology, Evolution, Behavior and Systematics",44801
+T12497,Traditional and Medicinal Uses of Annonaceae,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Biochemistry,8507
+T11086,Parasitic Infections and Diagnostics,Life Sciences,Immunology and Microbiology,Parasitology,53292
+T10427,Visual perception and processing mechanisms,Life Sciences,Neuroscience,Cognitive Neuroscience,240414
+T13828,Natural Products and Biological Research,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmacology,11523
+T12043,Insect behavior and control techniques,Life Sciences,Agricultural and Biological Sciences,Insect Science,70607
+T11908,Protein Interaction Studies and Fluorescence Analysis,Life Sciences,"Biochemistry, Genetics and Molecular Biology",Molecular Biology,38982
+T10031,T-cell and B-cell Immunology,Life Sciences,Immunology and Microbiology,Immunology,243195
+T10489,Regulation of Appetite and Obesity,Life Sciences,Neuroscience,Endocrine and Autonomic Systems,79959
+T13561,Chemical Reactions and Isotopes,Life Sciences,"Pharmacology, Toxicology and Pharmaceutics",Pharmaceutical Science,24143
+T10765,Marine Biology and Ecology Research,Physical Sciences,Earth and Planetary Sciences,Oceanography,930633
+T11208,Lignin and Wood Chemistry,Physical Sciences,Chemical Engineering,Process Chemistry and Technology,57960
+T11740,Geochemistry and Elemental Analysis,Physical Sciences,Earth and Planetary Sciences,Geochemistry and Petrology,128125
+T14444,Power Systems and Renewable Energy,Physical Sciences,Energy,Energy Engineering and Power Technology,51067
+T11279,Lanthanide and Transition Metal Complexes,Physical Sciences,Materials Science,Materials Chemistry,45610
+T11401,Minerals Flotation and Separation Techniques,Physical Sciences,Chemical Engineering,Filtration and Separation,52387
+T11354,Evolution and Paleontology Studies,Physical Sciences,Earth and Planetary Sciences,Paleontology,221223
+T12617,"Energy, Environment, and Transportation Policies",Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",43375
+T13129,Material Properties and Applications,Physical Sciences,Materials Science,General Materials Science,26271
+T12396,Advanced Differential Equations and Dynamical Systems,Physical Sciences,Mathematics,Geometry and Topology,52220
+T10864,Fluid Dynamics and Mixing,Physical Sciences,Chemical Engineering,Fluid Flow and Transfer Processes,67976
+T11459,Arctic and Antarctic ice dynamics,Physical Sciences,Earth and Planetary Sciences,Atmospheric Science,54117
+T13190,Engineering and Environmental Studies,Physical Sciences,Energy,Fuel Technology,24817
+T10119,Sustainability and Climate Change Governance,Physical Sciences,Environmental Science,Global and Planetary Change,57182
+T11128,Transition Metal Oxide Nanomaterials,Physical Sciences,Materials Science,"Electronic, Optical and Magnetic Materials",33526
+T13797,Probabilistic Statistics in Medicine,Physical Sciences,Mathematics,Statistics and Probability,6027
+T12220,Quantum Electrodynamics and Casimir Effect,Physical Sciences,Physics and Astronomy,"Atomic and Molecular Physics, and Optics",15033
+T14215,Chemical and Environmental Engineering Research,Physical Sciences,Chemical Engineering,Process Chemistry and Technology,25391
+T10402,Phase Equilibria and Thermodynamics,Physical Sciences,Chemistry,Physical and Theoretical Chemistry,112270
+T13034,Information Systems Education and Curriculum Development,Physical Sciences,Computer Science,Information Systems,44559
+T10325,Astro and Planetary Science,Physical Sciences,Earth and Planetary Sciences,Space and Planetary Science,361143
+T12118,Forest Biomass Utilization and Management,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",31551
+T10447,Environmental Toxicology and Ecotoxicology,Physical Sciences,Environmental Science,"Health, Toxicology and Mutagenesis",211816
+T11087,Solidification and crystal growth phenomena,Physical Sciences,Materials Science,Materials Chemistry,68746
+T11871,Advanced Statistical Methods and Models,Physical Sciences,Mathematics,Statistics and Probability,54189
+T11090,Dark Matter and Cosmic Phenomena,Physical Sciences,Physics and Astronomy,Nuclear and High Energy Physics,41131
+T12112,Ammonia Synthesis and Nitrogen Reduction,Physical Sciences,Chemical Engineering,Catalysis,21394
+T13833,Ferrocene Chemistry and Applications,Physical Sciences,Chemistry,Organic Chemistry,12391
+T13018,Seismology and Earthquake Studies,Physical Sciences,Computer Science,Artificial Intelligence,22428
+T10075,Atmospheric chemistry and aerosols,Physical Sciences,Earth and Planetary Sciences,Atmospheric Science,339526
+T10030,Electrocatalysts for Energy Conversion,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",192725
+T12615,Climate Change and Geoengineering,Physical Sciences,Environmental Science,Global and Planetary Change,8736
+T14128,Metallurgical and Alloy Processes,Physical Sciences,Materials Science,General Materials Science,63057
+T12100,Advanced Mathematical Modeling in Engineering,Physical Sciences,Mathematics,Applied Mathematics,19938
+T10248,Nonlinear Waves and Solitons,Physical Sciences,Physics and Astronomy,Statistical and Nonlinear Physics,117052
+T12706,Subcritical and Supercritical Water Processes,Physical Sciences,Chemical Engineering,Process Chemistry and Technology,10865
+T13325,Dye analysis and toxicity,Physical Sciences,Chemistry,Analytical Chemistry,15349
+T11105,Advanced Image Processing Techniques,Physical Sciences,Computer Science,Computer Vision and Pattern Recognition,46099
+T11320,Atmospheric Ozone and Climate,Physical Sciences,Earth and Planetary Sciences,Atmospheric Science,70222
+T14327,Advanced Energy Technologies and Civil Engineering Innovations,Physical Sciences,Energy,Nuclear Energy and Engineering,4749
+T13394,"Ecology, Conservation, and Geographical Studies",Physical Sciences,Environmental Science,Nature and Landscape Conservation,31403
+T11342,Carbon and Quantum Dots Applications,Physical Sciences,Materials Science,Materials Chemistry,27515
+T13286,Modeling and Simulation Systems,Physical Sciences,Mathematics,Modeling and Simulation,22003
+T10425,Cold Atom Physics and Bose-Einstein Condensates,Physical Sciences,Physics and Astronomy,"Atomic and Molecular Physics, and Optics",70529
+T10117,Advanced Combustion Engine Technologies,Physical Sciences,Chemical Engineering,Fluid Flow and Transfer Processes,202042
+T12527,Chemistry and Stereochemistry Studies,Physical Sciences,Chemistry,Organic Chemistry,40357
+T13650,Computational Physics and Python Applications,Physical Sciences,Computer Science,Software,19594
+T10159,Ionosphere and magnetosphere dynamics,Physical Sciences,Earth and Planetary Sciences,Space and Planetary Science,252491
+T11801,Reservoir Engineering and Simulation Methods,Physical Sciences,Energy,Fuel Technology,57546
+T12965,Wildlife Conservation and Criminology Analyses,Physical Sciences,Environmental Science,Nature and Landscape Conservation,19656
+T14089,Nanotechnology research and applications,Physical Sciences,Materials Science,General Materials Science,33826
+T12504,Mathematics and Applications,Physical Sciences,Mathematics,Geometry and Topology,133088
+T11692,Noise Effects and Management,Physical Sciences,Physics and Astronomy,Acoustics and Ultrasonics,115445
+T11407,Innovative Microfluidic and Catalytic Techniques Innovation,Physical Sciences,Chemical Engineering,Fluid Flow and Transfer Processes,28480
+T10909,Edible Oils Quality and Analysis,Physical Sciences,Chemistry,Organic Chemistry,99320
+T10481,Computer Graphics and Visualization Techniques,Physical Sciences,Computer Science,Computer Graphics and Computer-Aided Design,154966
+T13121,Radio Wave Propagation Studies,Physical Sciences,Earth and Planetary Sciences,Atmospheric Science,33076
+T10680,Wind Energy Research and Development,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",112121
+T11493,Water Treatment and Disinfection,Physical Sciences,Environmental Science,"Health, Toxicology and Mutagenesis",56428
+T10661,biodegradable polymer synthesis and properties,Physical Sciences,Materials Science,Biomaterials,96783
+T13141,Statistical Methods and Applications,Physical Sciences,Mathematics,Statistics and Probability,100870
+T11206,Model Reduction and Neural Networks,Physical Sciences,Physics and Astronomy,Statistical and Nonlinear Physics,56644
+T10962,Thermodynamic properties of mixtures,Physical Sciences,Chemical Engineering,Fluid Flow and Transfer Processes,69459
+T12646,Inorganic Fluorides and Related Compounds,Physical Sciences,Chemistry,Inorganic Chemistry,28590
+T11901,Bayesian Methods and Mixture Models,Physical Sciences,Computer Science,Artificial Intelligence,25220
+T10787,Lightning and Electromagnetic Phenomena,Physical Sciences,Earth and Planetary Sciences,Atmospheric Science,76229
+T10905,Solar Thermal and Photovoltaic Systems,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",107059
+T11312,Soil Moisture and Remote Sensing,Physical Sciences,Environmental Science,Environmental Engineering,42503
+T10544,Glass properties and applications,Physical Sciences,Materials Science,Ceramics and Composites,132914
+T11191,Mathematical functions and polynomials,Physical Sciences,Mathematics,Applied Mathematics,91905
+T11683,Quantum and Classical Electrodynamics,Physical Sciences,Physics and Astronomy,"Atomic and Molecular Physics, and Optics",99236
+T13840,Chemical Safety and Risk Management,Physical Sciences,Chemical Engineering,Chemical Health and Safety,83268
+T10911,Chemical Synthesis and Analysis,Physical Sciences,Chemistry,Organic Chemistry,82971
+T10215,Semantic Web and Ontologies,Physical Sciences,Computer Science,Artificial Intelligence,139830
+T12383,Aeolian processes and effects,Physical Sciences,Earth and Planetary Sciences,Earth-Surface Processes,42478
+T11954,Energy Efficiency and Management,Physical Sciences,Energy,"Renewable Energy, Sustainability and the Environment",80371
+T13967,"Conservation, Ecology, Wildlife Education",Physical Sciences,Environmental Science,"Management, Monitoring, Policy and Law",30186
+T11242,Nuclear Materials and Properties,Physical Sciences,Materials Science,Materials Chemistry,77886
+T11269,Algorithms and Data Compression,Physical Sciences,Mathematics,Theoretical Computer Science,59427
+T10251,Solar and Space Plasma Dynamics,Physical Sciences,Physics and Astronomy,Astronomy and Astrophysics,278111
+T12074,Membrane-based Ion Separation Techniques,Physical Sciences,Chemical Engineering,Filtration and Separation,26612
+T13736,Steroid Chemistry and Biochemistry,Physical Sciences,Chemistry,Organic Chemistry,46406
+T12034,Digital and Cyber Forensics,Physical Sciences,Computer Science,Information Systems,28063
+T10110,earthquake and tectonic studies,Physical Sciences,Earth and Planetary Sciences,Geophysics,299010
+T13094,Mining and Gasification Technologies,Physical Sciences,Energy,Fuel Technology,19524
+T13584,Coal Combustion and Slurry Processing,Physical Sciences,Engineering,Mechanical Engineering,21510
+T12213,Marine Ecology and Invasive Species,Physical Sciences,Environmental Science,Global and Planetary Change,29805
+T11272,Nanowire Synthesis and Applications,Physical Sciences,Materials Science,"Electronic, Optical and Magnetic Materials",27915
+T10588,Mathematical Dynamics and Fractals,Physical Sciences,Mathematics,Mathematical Physics,131257
+T12612,Strong Light-Matter Interactions,Physical Sciences,Physics and Astronomy,"Atomic and Molecular Physics, and Optics",21673
+T14479,Freezing and Crystallization Processes,Physical Sciences,Chemical Engineering,Filtration and Separation,10585
+T10956,Fullerene Chemistry and Applications,Physical Sciences,Chemistry,Organic Chemistry,46193
+T11902,Intelligent Tutoring Systems and Adaptive Learning,Physical Sciences,Computer Science,Artificial Intelligence,56678
+T13443,Mineralogy and Gemology Studies,Physical Sciences,Earth and Planetary Sciences,Geochemistry and Petrology,369516
+T10892,Drilling and Well Engineering,Physical Sciences,Energy,Fuel Technology,116928
+T13226,Appreciative Inquiry and Organizational Change,Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,8763
+T11912,Outsourcing and Supply Chain Management,Social Sciences,"Business, Management and Accounting",Management Information Systems,64117
+T13138,Legal and Constitutional Studies,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,90332
+T11729,Product Development and Customization,Social Sciences,"Business, Management and Accounting",Management of Technology and Innovation,52442
+T13309,Reliability and Agreement in Measurement,Social Sciences,Decision Sciences,"Statistics, Probability and Uncertainty",12547
+T13630,Agriculture Market Analysis Ukraine,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,24484
+T12734,Information Systems and Technology Applications,Social Sciences,"Business, Management and Accounting",Management Information Systems,58190
+T11443,Advanced Statistical Process Monitoring,Social Sciences,Decision Sciences,"Statistics, Probability and Uncertainty",51334
+T13007,Economic Sanctions and International Relations,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,26829
+T12905,Management Systems and Quality Improvement,Social Sciences,"Business, Management and Accounting",Strategy and Management,73068
+T14222,Knowledge Management and Technology,Social Sciences,Decision Sciences,Information Systems and Management,15366
+T12708,Economic and Financial Impacts of Cancer,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,16428
+T12553,Psychedelics and Drug Studies,Social Sciences,Psychology,Clinical Psychology,25752
+T14356,Organizational Leadership and Management Strategies,Social Sciences,"Business, Management and Accounting",Strategy and Management,14683
+T13886,Operations Management Techniques,Social Sciences,Decision Sciences,Management Science and Operations Research,6014
+T10007,Monetary Policy and Economic Impact,Social Sciences,"Economics, Econometrics and Finance","General Economics, Econometrics and Finance",445031
+T10565,"Psychopathy, Forensic Psychiatry, Sexual Offending",Social Sciences,Psychology,Clinical Psychology,95417
+T13963,Organizational Management and Leadership,Social Sciences,"Business, Management and Accounting",Management of Technology and Innovation,15049
+T12101,Advanced Bandit Algorithms Research,Social Sciences,Decision Sciences,Management Science and Operations Research,16844
+T14143,Economic and Technological Innovation,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,9094
+T11265,Aging and Gerontology Research,Social Sciences,Psychology,Developmental and Educational Psychology,71133
+T11769,Copyright and Intellectual Property,Social Sciences,"Business, Management and Accounting",Marketing,26926
+T14280,Big Data Technologies and Applications,Social Sciences,Decision Sciences,Information Systems and Management,22838
+T11496,Credit Risk and Financial Regulations,Social Sciences,"Economics, Econometrics and Finance",Finance,58153
+T13521,Psychosocial Factors Impacting Youth,Social Sciences,Psychology,Developmental and Educational Psychology,27080
+T10880,Environmental Sustainability in Business,Social Sciences,"Business, Management and Accounting",Marketing,131672
+T10395,Construction Project Management and Performance,Social Sciences,Decision Sciences,Management Science and Operations Research,264818
+T11270,Complex Systems and Time Series Analysis,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,37240
+T12488,Mental Health via Writing,Social Sciences,Psychology,Social Psychology,18400
+T14021,Medieval European Literature and History,Social Sciences,Arts and Humanities,Language and Linguistics,54016
+T11891,Big Data and Business Intelligence,Social Sciences,"Business, Management and Accounting",Management Information Systems,71364
+T12709,Optimization and Mathematical Programming,Social Sciences,Decision Sciences,Management Science and Operations Research,45838
+T11770,Fiscal Policy and Economic Growth,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,42480
+T13701,Psycholinguistics and Behavioral Studies,Social Sciences,Psychology,Applied Psychology,487
+T13666,Postmodernism in Literature and Education,Social Sciences,Arts and Humanities,Literature and Literary Theory,10447
+T13611,"Education, Management, Technology, Human Resources",Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,14491
+T14121,Business Logistics and Inventory Control,Social Sciences,Decision Sciences,Management Science and Operations Research,53709
+T14294,Impulse Buying and Technology Impacts,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,11862
+T11577,Cognitive Abilities and Testing,Social Sciences,Psychology,Experimental and Cognitive Psychology,61354
+T12324,History of Medicine Studies,Social Sciences,Arts and Humanities,History,164167
+T12751,Leadership and Management in Organizations,Social Sciences,"Business, Management and Accounting",Strategy and Management,178044
+T11182,Auction Theory and Applications,Social Sciences,Decision Sciences,Management Science and Operations Research,36024
+T14419,Banking Systems and Strategies,Social Sciences,"Economics, Econometrics and Finance",Finance,58122
+T14301,Educational methodologies and cognitive development,Social Sciences,Psychology,Developmental and Educational Psychology,38804
+T14380,Libraries and Information Services,Social Sciences,Arts and Humanities,Museology,93604
+T13449,Organizational Management and Change,Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,16270
+T10206,Meta-analysis and systematic reviews,Social Sciences,Decision Sciences,"Statistics, Probability and Uncertainty",85437
+T10391,Healthcare Policy and Management,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,242542
+T14265,Social and Behavioral Studies,Social Sciences,Psychology,Social Psychology,2444
+T12912,"Shakespeare, Adaptation, and Literary Criticism",Social Sciences,Arts and Humanities,Literature and Literary Theory,157586
+T12885,Digital Innovation in Industries,Social Sciences,"Business, Management and Accounting",Management of Technology and Innovation,49676
+T11031,Game Theory and Applications,Social Sciences,Decision Sciences,Management Science and Operations Research,69146
+T13547,Economic and Industrial Development,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,167988
+T13447,Educational and Psychological Assessments,Social Sciences,Psychology,Developmental and Educational Psychology,13253
+T11717,Postcolonial and Cultural Literary Studies,Social Sciences,Arts and Humanities,Literature and Literary Theory,135073
+T13911,"Employment, Labor, and Gender Studies",Social Sciences,"Business, Management and Accounting",Industrial relations,150824
+T10068,Technology Adoption and User Behaviour,Social Sciences,Decision Sciences,Information Systems and Management,158454
+T10517,"Financial Literacy, Pension, Retirement Analysis",Social Sciences,"Economics, Econometrics and Finance",Finance,173508
+T10242,Posttraumatic Stress Disorder Research,Social Sciences,Psychology,Clinical Psychology,118869
+T14084,Methodology and Impact of Social Science Research,Social Sciences,Social Sciences,Sociology and Political Science,427
+T13264,Walter Benjamin Studies Compilation,Social Sciences,Arts and Humanities,Philosophy,16225
+T11058,Ethics in Business and Education,Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,102961
+T12401,Scheduling and Timetabling Solutions,Social Sciences,Decision Sciences,Management Science and Operations Research,21323
+T13411,Labor Market and Education,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,35846
+T13471,Cognitive Functions and Memory,Social Sciences,Psychology,Experimental and Cognitive Psychology,14527
+T13562,Cruise Tourism Development and Management,Social Sciences,Social Sciences,Transportation,10580
+T13704,French Literature and Poetry,Social Sciences,Arts and Humanities,Literature and Literary Theory,236166
+T13163,Organizational Learning and Leadership,Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,41927
+T14262,Extenics and Innovation Methods,Social Sciences,Decision Sciences,Management Science and Operations Research,2154
+T11043,Merger and Competition Analysis,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,167487
+T13283,Mental Health Research Topics,Social Sciences,Psychology,Experimental and Cognitive Psychology,13045
+T10254,Innovations in Medical Education,Social Sciences,Social Sciences,Education,431153
+T11462,Museums and Cultural Heritage,Social Sciences,Arts and Humanities,Museology,225911
+T12651,Halal products and consumer behavior,Social Sciences,"Business, Management and Accounting",Marketing,34184
+T10315,Decision-Making and Behavioral Economics,Social Sciences,Decision Sciences,General Decision Sciences,169298
+T12394,Insurance and Financial Risk Management,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,183507
+T11994,Human Resource Development and Performance Evaluation,Social Sciences,Psychology,Applied Psychology,94025
+T11755,Transboundary Water Resource Management,Social Sciences,Social Sciences,Sociology and Political Science,38045
+T12144,"Colonialism, slavery, and trade",Social Sciences,Arts and Humanities,History,132896
+T12594,Collaboration in agile enterprises,Social Sciences,"Business, Management and Accounting",Management of Technology and Innovation,18217
+T10050,Multi-Criteria Decision Making,Social Sciences,Decision Sciences,Management Science and Operations Research,180931
+T11903,Private Equity and Venture Capital,Social Sciences,"Economics, Econometrics and Finance",Finance,66116
+T14104,Developmental and Educational Neuropsychology,Social Sciences,Psychology,Neuropsychology and Physiological Psychology,42979
+T12090,Language and cultural evolution,Social Sciences,Social Sciences,Cultural Studies,25101
+T12909,French Historical and Cultural Studies,Social Sciences,Arts and Humanities,History,212950
+T14309,Employee Performance and Management,Social Sciences,"Business, Management and Accounting",Organizational Behavior and Human Resource Management,315617
+T14260,Impact of AI and Big Data on Business and Society,Social Sciences,Decision Sciences,Management Science and Operations Research,20778
+T11257,Taxation and Compliance Studies,Social Sciences,"Economics, Econometrics and Finance",Economics and Econometrics,120952
+T10970,Team Dynamics and Performance,Social Sciences,Psychology,Social Psychology,93481
+T13501,Legal Issues in Turkey,Social Sciences,Social Sciences,Law,17054
+T13059,"Religion, Ecology, and Ethics",Social Sciences,Arts and Humanities,Religious studies,43689
+T12128,AI in Service Interactions,Social Sciences,"Business, Management and Accounting",Marketing,41067
+T11986,Scientific Computing and Data Management,Social Sciences,Decision Sciences,Information Systems and Management,62814
+T13146,Sustainable Finance and Green Bonds,Social Sciences,"Economics, Econometrics and Finance",Finance,54966
+T11904,Spatial Cognition and Navigation,Social Sciences,Psychology,Experimental and Cognitive Psychology,36244
