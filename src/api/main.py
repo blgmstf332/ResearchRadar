@@ -13,8 +13,8 @@ app = FastAPI(
 
 ROOT = Path(__file__).resolve().parents[2]
 
-TOPICS_FILE = ROOT / "data/samples/topic_candidates_120.csv"
-COUNTS_FILE = ROOT / "data/samples/topic_year_counts_120.csv"
+TOPICS_FILE = ROOT / "data/samples/topic_candidates_500.csv"
+COUNTS_FILE = ROOT / "data/samples/topic_year_counts_500.csv"
 
 
 # 1. API saglik kontrolu
@@ -123,7 +123,7 @@ def get_topic_trends(topic_id: str):
 def get_scores(year: int = 2025, limit: int = 10):
 
     scores_file = (
-        ROOT / "data/samples/topic_year_scores_v1.csv"
+        ROOT / "data/samples/topic_year_scores_v2_500.csv"
     )
 
     if not scores_file.exists():
@@ -132,17 +132,17 @@ def get_scores(year: int = 2025, limit: int = 10):
             detail="Emergence Score veri dosyasi bulunamadi."
         )
 
-    if year < 2018 or year > 2025:
+    if year < 2019 or year > 2025:
         raise HTTPException(
-            status_code=400,
-            detail="Yil 2018-2025 arasinda olmali."
-        )
+        status_code=400,
+        detail="Skor yili 2019-2025 arasinda olmali."
+    )
 
-    if limit < 1 or limit > 120:
+    if limit < 1 or limit > 500:
         raise HTTPException(
-            status_code=400,
-            detail="Limit 1-120 arasinda olmali."
-        )
+        status_code=400,
+        detail="Limit 1-500 arasinda olmali."
+    )
 
     scores = []
 
