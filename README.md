@@ -70,6 +70,14 @@ flowchart TD
 
 The current API reads CSV files. PostgreSQL integration is implemented as a separate data storage layer. Predictive model training remains a future development stage.
 
+## Data Visualization
+
+### Historical Publication Trends
+
+![Machine Learning and Algorithms — annual publication counts from 2018 to 2025](assets/publication-trends.svg)
+
+This example shows historical publication counts for OpenAlex topic **T12072 (Machine Learning and Algorithms)**. The highest annual count was 611 in 2021; the 2025 count was 513. The visualization uses the project's [pilot dataset](data/samples/T12072_yearly_counts.csv), collected on October 27, 2026, and is not a forecasting result.
+
 ## Feature Engineering
 
 | Feature | Description |
@@ -178,6 +186,8 @@ Database features include primary and foreign keys, JSONB citation storage, vali
 
 ```text
 research-radar/
+├── assets/
+│   └── publication-trends.svg
 ├── data/
 │   └── samples/
 ├── database/
