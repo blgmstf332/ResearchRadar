@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" width="960" height="470" role="img" aria-labelledby="title desc">
+<title id="title">Machine Learning and Algorithms — Publication Trends</title>
+<desc id="desc">OpenAlex topic T12072 historical annual publications: 2018: 508; 2019: 548; 2020: 607; 2021: 611; 2022: 487; 2023: 526; 2024: 496; 2025: 513. Highest count in 2021.</desc>
+<rect x="1" y="1" width="958" height="468" rx="14" fill="#ffffff" stroke="#dce3eb"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="34" y="37" font-size="23" font-weight="700" fill="#172b42">Machine Learning and Algorithms — Publication Trends</text>
+<text x="34" y="62" font-size="14" fill="#52667b">OpenAlex · Topic T12072 · 2018–2025 · Historical publication counts</text>
+<line x1="78" y1="330" x2="912" y2="330" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="334" text-anchor="end" font-size="12" fill="#52667b">0</text>
+<line x1="78" y1="296.8571428571429" x2="912" y2="296.8571428571429" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="300.8571428571429" text-anchor="end" font-size="12" fill="#52667b">100</text>
+<line x1="78" y1="263.7142857142857" x2="912" y2="263.7142857142857" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="267.7142857142857" text-anchor="end" font-size="12" fill="#52667b">200</text>
+<line x1="78" y1="230.57142857142858" x2="912" y2="230.57142857142858" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="234.57142857142858" text-anchor="end" font-size="12" fill="#52667b">300</text>
+<line x1="78" y1="197.42857142857144" x2="912" y2="197.42857142857144" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="201.42857142857144" text-anchor="end" font-size="12" fill="#52667b">400</text>
+<line x1="78" y1="164.28571428571428" x2="912" y2="164.28571428571428" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="168.28571428571428" text-anchor="end" font-size="12" fill="#52667b">500</text>
+<line x1="78" y1="131.14285714285717" x2="912" y2="131.14285714285717" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="135.14285714285717" text-anchor="end" font-size="12" fill="#52667b">600</text>
+<line x1="78" y1="98" x2="912" y2="98" stroke="#e4e9ef" stroke-width="1"/><text x="65" y="102" text-anchor="end" font-size="12" fill="#52667b">700</text>
+<text transform="translate(25 213) rotate(-90)" text-anchor="middle" font-size="12" fill="#52667b">Publications</text>
+<path d="M 94 161.6342857142857 L 208 148.37714285714287 L 322 128.82285714285715 L 436 127.49714285714285 L 550 168.59428571428572 L 664 155.66857142857143 L 778 165.61142857142858 L 892 159.97714285714287 L 892 330 L 94 330 Z" fill="#e8f2fc"/>
+<polyline points="94,161.6342857142857 208,148.37714285714287 322,128.82285714285715 436,127.49714285714285 550,168.59428571428572 664,155.66857142857143 778,165.61142857142858 892,159.97714285714287" fill="none" stroke="#2463a6" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="94" cy="161.6342857142857" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="94" y="148.6342857142857" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">508</text><text x="94" y="351" font-size="12" fill="#52667b" text-anchor="middle">2018</text>
+<circle cx="208" cy="148.37714285714287" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="208" y="135.37714285714287" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">548</text><text x="208" y="351" font-size="12" fill="#52667b" text-anchor="middle">2019</text>
+<circle cx="322" cy="128.82285714285715" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="322" y="115.82285714285715" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">607</text><text x="322" y="351" font-size="12" fill="#52667b" text-anchor="middle">2020</text>
+<circle cx="436" cy="127.49714285714285" r="5" fill="#176e55" stroke="#fff" stroke-width="2"/><text x="436" y="114.49714285714285" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">611</text><text x="436" y="351" font-size="12" fill="#52667b" text-anchor="middle">2021</text>
+<circle cx="550" cy="168.59428571428572" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="550" y="155.59428571428572" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">487</text><text x="550" y="351" font-size="12" fill="#52667b" text-anchor="middle">2022</text>
+<circle cx="664" cy="155.66857142857143" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="664" y="142.66857142857143" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">526</text><text x="664" y="351" font-size="12" fill="#52667b" text-anchor="middle">2023</text>
+<circle cx="778" cy="165.61142857142858" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="778" y="152.61142857142858" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">496</text><text x="778" y="351" font-size="12" fill="#52667b" text-anchor="middle">2024</text>
+<circle cx="892" cy="159.97714285714287" r="5" fill="#2463a6" stroke="#fff" stroke-width="2"/><text x="892" y="146.97714285714287" font-size="14" font-weight="700" fill="#172b42" text-anchor="middle">513</text><text x="892" y="351" font-size="12" fill="#52667b" text-anchor="middle">2025</text>
+<line x1="34" y1="373" x2="926" y2="373" stroke="#dce3eb"/>
+<text x="34" y="397" fill="#52667b" font-size="11" font-weight="700" letter-spacing=".7">PEAK YEAR</text><text x="34" y="425" fill="#172b42" font-size="24" font-weight="700">2021</text>
+<text x="336" y="397" fill="#52667b" font-size="11" font-weight="700" letter-spacing=".7">PEAK PUBLICATIONS</text><text x="336" y="425" fill="#172b42" font-size="24" font-weight="700">611</text>
+<text x="642" y="397" fill="#52667b" font-size="11" font-weight="700" letter-spacing=".7">2025 PUBLICATIONS</text><text x="642" y="425" fill="#172b42" font-size="24" font-weight="700">513</text>
+<text x="34" y="452" font-size="11" fill="#52667b">Source: ResearchRadar OpenAlex pilot dataset · Retrieved 2026-10-27 · Not a forecast</text>
+</g></svg>
