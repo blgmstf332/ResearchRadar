@@ -182,11 +182,18 @@ Database features include primary and foreign keys, JSONB citation storage, vali
 | GET | `/trends/{topic_id}` | Historical publication counts and growth |
 | GET | `/scores?year=2025&limit=10` | Ranked Research Emergence Scores |
 
+### API Demo
+
+![ResearchRadar API — Interactive Swagger Documentation](assets/api-demo.png)
+
+Interactive FastAPI documentation providing access to research topics, historical publication trends, and Research Emergence Score rankings.
+
 ## Repository Structure
 
 ```text
 research-radar/
 ├── assets/
+│   ├── api-demo.png
 │   └── publication-trends.svg
 ├── data/
 │   └── samples/
